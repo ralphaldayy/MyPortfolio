@@ -78,7 +78,7 @@ const SkillCategoryIcon = ({ category }: { category: string }) => {
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeCertCategory, setActiveCertCategory] = useState(certifications[0]?.category || '');
 
